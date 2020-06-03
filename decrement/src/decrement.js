@@ -23,7 +23,7 @@ class Decrement extends Component {
     );
   }
 }
-Decrement.proTotypes = {
+Decrement.propTypes = {
   start: PropTypes.number.isRequired,
 };
 export default Decrement;
